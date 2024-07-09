@@ -3,11 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>Vite App</title>
   </head>
-  <body>
+  <body class="bg-dark">
     <div id="app"></div>
     <canvas class="webgl"></canvas>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="text-primary navbar-brand" href = "/">💗💗💗</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#about-me"><img width="30px" src="img/rupee.png"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#projects"><img width="35px" src="img/bow and arrow.png"></a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="text-light">Be gentle...</h1>
+    <div class="card card-dark" style="width: 18rem;">
+      <img class="card-img-top" src="img/me.jpg" alt="a pic of alyssa Favorito">
+      <div class="card-body">
+        <h5 class="card-title">About Alyssa Favorito</h5>
+        <p class="about-me text-dark">After studying 3D modeling and animation, I became interested in coding
+          originally as a tool to supplement my art. I discovered Promineo Tech through
+          Brookdale Community College, and completed the 360-hour front-end bootcamp in February.
+          I also made <a href="https://www.turbosquid.com/3d-models/frog-papermodel-589370">this frog</a> 
+          rotate for your enjoyment.
+          </p>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
+  <footer class ="text-light m5">
+    Alyssa Favorito ©️ 2024
+  </footer>
 </html>

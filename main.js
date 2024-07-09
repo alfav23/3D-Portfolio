@@ -39,7 +39,8 @@ scene.add(light, underlight, backlight, frontlight)
 
 // camera
 const camera = new THREE.PerspectiveCamera(45, sizes.width/sizes.height, 0.1, 100)
-camera.position.z = 20
+camera.position.z = 25
+camera.position.y = 5
 scene.add(camera)
 
 // renderer
@@ -63,7 +64,7 @@ window.addEventListener("resize", () =>{
   sizes.width = window.innerWidth
   sizes.height = window.innerHeight
   // update camera
-  camera.updateProjectionMatrix
+  camera.updateProjectionMatrix();
   camera.aspect = sizes.width / sizes.height
   renderer.setSize(sizes.width, sizes.height)
 })

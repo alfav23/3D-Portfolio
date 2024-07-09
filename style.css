@@ -1,0 +1,76 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar {
+  z-index: 2;
+  position: relative;
+  padding: 0;
+  display: inline-block;
+  justify-content: space-between;
+  opacity: 0.5;
+}
+
+.navbar:hover{
+  opacity: 0.9;
+}
+
+.navbar-nav, .navbar-brand {
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+h1 {
+  justify-content: left;
+  padding: 5rem;
+  position: relative;
+  display: flex;
+  z-index: 2;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+.card{
+  margin: 5rem;
+  z-index: 2;
+  justify-content: center;
+  position: relative;
+  display: flex;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.navbar-brand:hover{
+  font-size: x-large;
+}
+
+.navbar img:hover{
+  transform: scale(1.5);
+}
+
+p a{
+  text-decoration: none;
+}
+
+.card-img-top{
+  transform: scale(.75);
+  border-radius: 2rem 5rem;
+}
+
+
+
