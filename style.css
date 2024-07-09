@@ -15,6 +15,7 @@
   display: inline-block;
   justify-content: space-between;
   opacity: 0.5;
+  width: 100%;
 }
 
 .navbar:hover{
@@ -63,13 +64,17 @@ h1 {
   transform: scale(1.5);
 }
 
-p a{
+p a, .card a{
   text-decoration: none;
 }
 
 .card-img-top{
   transform: scale(.75);
   border-radius: 2rem 5rem;
+}
+
+#projects{
+  display: inline-block;
 }
 
 
